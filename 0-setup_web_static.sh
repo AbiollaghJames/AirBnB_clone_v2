@@ -21,7 +21,7 @@ cat > /data/web_static/releases/test/index.html << DATA
 DATA
 
 #Symbolic link
-ln -sf /data/web_static/current /data/web_static/releases/test/
+ln -sf /data/web_static/releases/test/ /data/web_static/current
 
 #Ownership
 chown -R ubuntu /data
