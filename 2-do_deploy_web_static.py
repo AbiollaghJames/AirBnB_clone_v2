@@ -27,7 +27,7 @@ def do_deploy(archive_path):
     #Uploading
     put(archive_path, "/tmp")
     run("sudo mkdir -p /data/web_static/releases/" + no_extension + "/")
-    run("sudo tar -xzf /tmp/" no_extension + ".tgz" + " -C /data/web_static/releases/" + no_extension  + "/")
+    run("sudo tar -xzf /tmp/" + no_extension + ".tgz" + " -C /data/web_static/releases/" + no_extension  + "/")
     run("sudo rm /tmp/" + no_extension + ".tgz")
     run("sudo mv /data/web_static/releases/" + no_extension + "/web_static/* /data/web_static/releases/" + no_extension + "/")
     run("sudo rm -rf /data/web_static/releases/" + no_extension + "/web_static")
