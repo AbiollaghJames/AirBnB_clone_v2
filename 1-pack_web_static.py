@@ -13,7 +13,7 @@ def do_pack():
     """ func to compress file """
     local("mkdir -p versions")
     date = datetime.now().strftime('%Y%m%d%H%M%S')
-    compressed = local("tar -czvf versions/web_static_{}.tgz web_static".format(date))
+    compressed = local("tar -cvzf versions/web_static_{}.tgz web_static".format(date))
     if compressed.failed:
         return None
     return compressed
