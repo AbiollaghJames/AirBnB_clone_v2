@@ -20,3 +20,39 @@ ________________________________________________________________________________
 [0. Hello Flask!](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/0-hello_route.py)
 
 - Write a script that starts a Flask web application:
+
+[1. HBNB](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/1-hbnb_route.py)
+
+- Write a script that starts a Flask web application:
+
+[2. C is fun!]
+
+- Write a script that starts a Flask web application:
+
+[3. Python is cool!]
+
+- Write a script that starts a Flask web application:
+
+[4. Is it a number?]
+
+- Write a script that starts a Flask web application:
+
+[5. Number template]
+
+- Write a script that starts a Flask web application:
+
+[6. Odd or even?]
+
+- Write a script that starts a Flask web application:
+
+[7. Improve engines]
+
+[8. List of states]
+
+[9. Cities by states]
+
+[10. States and State]
+
+[11. HBNB filters]
+
+[12. HBNB is alive!]
