@@ -18,3 +18,5 @@ What you should learn from this project:
 _________________________________________________________________________________________________________________________________________________________________________
 
 [0. Hello Flask!](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/0-hello_route.py)
+
+- Write a script that starts a Flask web application:
