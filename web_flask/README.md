@@ -25,15 +25,15 @@ ________________________________________________________________________________
 
 - Write a script that starts a Flask web application:
 
-[2. C is fun!]
+[2. C is fun!](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/2-c_route.py)
 
 - Write a script that starts a Flask web application:
 
-[3. Python is cool!]
+[3. Python is cool!](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/3-python_route.py)
 
 - Write a script that starts a Flask web application:
 
-[4. Is it a number?]
+[4. Is it a number?](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/4-number_route.py)
 
 - Write a script that starts a Flask web application:
 
