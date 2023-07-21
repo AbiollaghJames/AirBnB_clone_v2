@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 0x04. AirBnB clone - Web framework
 =======
-**0x04. AirBnB clone - Web framework**
 
 **Description**
 
@@ -19,5 +17,4 @@ What you should learn from this project:
 
 _________________________________________________________________________________________________________________________________________________________________________
 
-[0. Hello Flask!] 
->>>>>>> 9d1152e19830da1e444e8a4ee9076ae5addd5821
+[0. Hello Flask!] (https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/0-hello_route.py)
