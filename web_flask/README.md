@@ -13,3 +13,7 @@ What you should learn from this project:
 - How to create a HTML response in Flask by using a template
 - How to create a dynamic template (loops, conditions…)
 - How to display in HTML data from a MySQL database
+
+_________________________________________________________________________________________________________________________________________________________________________
+
+[0. Hello Flask!] 
