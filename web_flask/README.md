@@ -41,7 +41,7 @@ ________________________________________________________________________________
 
 - Write a script that starts a Flask web application:
 
-[6. Odd or even?]
+[6. Odd or even?](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/6-number_odd_or_even.py)
 
 - Write a script that starts a Flask web application:
 
