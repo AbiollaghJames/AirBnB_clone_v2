@@ -3,7 +3,7 @@
 
 
 from flask import Flask, render_tamplate
-from models import storage
+from models import *
 
 
 app = Flask(__name__)
@@ -17,7 +17,7 @@ def list_states():
 
 
 @app.teardown_appcontext
-def tear_down():
+def tear_down(exception):
     """ Removes current SQLAlchemy session """
     storage.close()
 
