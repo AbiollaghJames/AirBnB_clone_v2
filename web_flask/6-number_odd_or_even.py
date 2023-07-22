@@ -54,7 +54,7 @@ def odd_or_even(n):
     """ Displays odd or even """
     even = n % 2 == 0
     n = str(n)
-    return render_template('6-number_odd_or_even.html',number=n, even=even)
+    return render_template('6-number_odd_or_even.html', number=n, even=even)
 
 
 if __name__ == "__main__":
