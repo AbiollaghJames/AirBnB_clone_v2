@@ -12,12 +12,12 @@ app = Flask(__name__)
 @app.route('/states_list', strict_slashes=False)
 def list_states():
     """ Lists states by ID and name sorted alphabetically """
-    states = sorted(list(storage.all("State").values()), key=lambda y: y.name)
+    states = storage.all('State').values()
     return render_template('7-states_list.html', states=states)
 
 
 @app.teardown_appcontext
-def tear_down(exception):
+def tear_down(self):
     """ Removes current SQLAlchemy session """
     storage.close()
 
