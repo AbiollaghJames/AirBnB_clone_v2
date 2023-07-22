@@ -4,7 +4,6 @@
 
 from flask import Flask, render_template
 from models import *
-from models import storage
 
 
 app = Flask(__name__)
@@ -14,7 +13,7 @@ app = Flask(__name__)
 def list_states():
     """ Lists states by ID and name sorted alphabetically """
     states = sorted(list(storage.all("State").values()), key=lambda y: y.name)
-    return render_tamplate('7-states_list.html', states=states)
+    return render_template('7-states_list.html', states=states)
 
 
 @app.teardown_appcontext
