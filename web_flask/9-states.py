@@ -13,7 +13,7 @@ app = Flask(__name__)
 def state_list():
     """ renders states """
     states = storage.all('State').values()
-    return render_template('9-states.html', states=states, condition="states_list")
+    return render_template('9-states.html', states=states, condition="state_list")
 
 
 @app.route('/states/<id>', strict_slashes=False)
@@ -22,7 +22,7 @@ def states_id(id):
     all_states = storage.all('State')
     try:
         state_id = all_states[id]
-        return render_template('9-states.html', state_id=state_id,condition="state_id")
+        return render_template('9-states.html', state_id=state_id, condition="states_id")
     except:
         return render_template('9-states.html', condition="not_found")
 
