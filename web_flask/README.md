@@ -51,10 +51,20 @@ ________________________________________________________________________________
 
 [8. List of states](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/7-states_list.py)
 
-[9. Cities by states]
+- a script that starts a Flask web application
 
-[10. States and State]
+[9. Cities by states](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/8-cities_by_states.py)
 
-[11. HBNB filters]
+- a script that starts a Flask web application
 
-[12. HBNB is alive!]
+[10. States and State](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/9-states.py)
+
+- a script that starts a Flask web application
+
+[11. HBNB filters](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/10-hbnb_filters.py)
+
+- a script that starts a Flask web application
+
+[12. HBNB is alive!](https://github.com/AbiollaghJames/AirBnB_clone_v2/blob/master/web_flask/100-hbnb.py)
+
+- a script that starts a Flask web application
